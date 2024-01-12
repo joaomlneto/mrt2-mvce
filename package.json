@@ -1,0 +1,40 @@
+{
+  "name": "mrt2-mvce",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "analyze": "ANALYZE=true pnpm build",
+    "build": "next build",
+    "clean": "git clean -xdf .next .turbo node_modules",
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@mantine/core": "7.3.2",
+    "@mantine/dates": "7.3.2",
+    "@mantine/hooks": "7.3.2",
+    "@next/bundle-analyzer": "^14.0.4",
+    "@tabler/icons-react": "^2.45.0",
+    "clsx": "^2.1.0",
+    "dayjs": "^1.11.10",
+    "dotenv-cli": "^7.3.0",
+    "mantine-react-table": "2.0.0-alpha.10",
+    "next": "^14.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.46",
+    "@types/react-dom": "^18.2.18",
+    "@types/react-html-parser": "^2.0.6",
+    "dotenv-cli": "^7.3.0",
+    "eslint": "^8.56.0",
+    "postcss": "^8.4.33",
+    "postcss-preset-mantine": "^1.12.3",
+    "postcss-simple-vars": "^7.0.1",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
+  }
+}
